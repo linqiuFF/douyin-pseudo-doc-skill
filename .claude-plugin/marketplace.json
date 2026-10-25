@@ -1,0 +1,21 @@
+{
+  "name": "linqiuff-skills",
+  "owner": {
+    "name": "linqiuFF"
+  },
+  "metadata": {
+    "description": "抖音AI伪纪录片图文创作技能",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "douyin-pseudo-doc",
+      "description": "把一个故事做成整套抖音AI伪纪录片图文：设定卡、分镜、GPT生图提示词、标题、正文和发布清单",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/douyin-pseudo-doc-workflow"
+      ]
+    }
+  ]
+}
